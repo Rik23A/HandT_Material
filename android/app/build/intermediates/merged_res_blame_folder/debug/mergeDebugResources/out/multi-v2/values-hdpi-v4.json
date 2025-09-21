@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.helloworld.app-mergeDebugResources-40:/values-hdpi-v4/values-hdpi-v4.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\TOTAN\\.gradle\\caches\\8.11.1\\transforms\\7e2d5b31f5cbb3e3dccf77b475b2cc88\\transformed\\appcompat-1.7.0\\res\\values-hdpi-v4\\values-hdpi-v4.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "6",
+                        "endColumns": "13",
+                        "endOffsets": "327"
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,440 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\TOTAN\Devil\Android\android\app\src\main\AndroidManifest.xml:3:1-28:12
+MERGED from C:\Users\TOTAN\Devil\Android\android\app\src\main\AndroidManifest.xml:3:1-28:12
+INJECTED from C:\Users\TOTAN\Devil\Android\android\app\src\debug\AndroidManifest.xml:2:1-9:12
+INJECTED from C:\Users\TOTAN\Devil\Android\android\app\src\debug\AndroidManifest.xml:2:1-9:12
+INJECTED from C:\Users\TOTAN\Devil\Android\android\app\src\debug\AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-safe-area-context] C:\Users\TOTAN\Devil\Android\node_modules\react-native-safe-area-context\android\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:2:1-7:12
+MERGED from [:react-native-screens] C:\Users\TOTAN\Devil\Android\node_modules\react-native-screens\android\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:2:1-7:12
+MERGED from [:react-native-get-random-values] C:\Users\TOTAN\Devil\Android\node_modules\react-native-get-random-values\android\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:2:1-7:12
+MERGED from [:react-native-svg] C:\Users\TOTAN\Devil\Android\node_modules\react-native-svg\android\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:2:1-7:12
+MERGED from [com.facebook.react:react-android:0.80.2] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\d3c494684c907490a03bcf6d2a33f66d\transformed\jetified-react-android-0.80.2-debug\AndroidManifest.xml:2:1-24:12
+MERGED from [com.facebook.react:hermes-android:0.80.2] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\f68015581299b41bb798dd3c7856f117\transformed\jetified-hermes-android-0.80.2-debug\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.appcompat:appcompat-resources:1.7.0] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\132276edc19f356ce9d60391a60f2f66\transformed\jetified-appcompat-resources-1.7.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.material:material:1.12.0] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\36bfceb22a93e2ce4fce58979a961866\transformed\material-1.12.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\163499094dce7e2d670160531d3b10c5\transformed\constraintlayout-2.0.1\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat:1.7.0] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\7e2d5b31f5cbb3e3dccf77b475b2cc88\transformed\appcompat-1.7.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.facebook.fresco:fresco:3.6.0] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\85f744f1bfa5c2b1260fc4db34c6bbc5\transformed\jetified-fresco-3.6.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:3.6.0] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\9e32e4d4d9fd6499fe27897a68e329a0\transformed\jetified-imagepipeline-okhttp3-3.6.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.facebook.fresco:drawee:3.6.0] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\12bfdfe3cf9603f01c8c99336455da6a\transformed\jetified-drawee-3.6.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.facebook.fresco:nativeimagefilters:3.6.0] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\560d87d0c672c26b1a6c14d7d5f85400\transformed\jetified-nativeimagefilters-3.6.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.facebook.fresco:memory-type-native:3.6.0] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\e546ee739b5a36c0277be33b37a4db9b\transformed\jetified-memory-type-native-3.6.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.facebook.fresco:memory-type-java:3.6.0] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\2bdfe717caa61f2431b0ec3194fc9224\transformed\jetified-memory-type-java-3.6.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.facebook.fresco:imagepipeline-native:3.6.0] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\b8de840d6d544efd049e7e583ac1e4af\transformed\jetified-imagepipeline-native-3.6.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.facebook.fresco:memory-type-ashmem:3.6.0] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\efbfb8401e21aede301270ee00df57f2\transformed\jetified-memory-type-ashmem-3.6.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.facebook.fresco:imagepipeline:3.6.0] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\327e6fa4db77bf6876701e0044b92e30\transformed\jetified-imagepipeline-3.6.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.facebook.fresco:nativeimagetranscoder:3.6.0] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\e089eceb714f2bccca07087d8713f6d8\transformed\jetified-nativeimagetranscoder-3.6.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.facebook.fresco:imagepipeline-base:3.6.0] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\00c000482b50f58ac7ad4e3fd9b8b505\transformed\jetified-imagepipeline-base-3.6.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.facebook.fresco:urimod:3.6.0] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\ba28096afba68a7d2373695c556c5561\transformed\jetified-urimod-3.6.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.facebook.fresco:vito-source:3.6.0] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\241708820ef4253afd8fbff1a64d465b\transformed\jetified-vito-source-3.6.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.facebook.fresco:middleware:3.6.0] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\62ea16dea79ccc8ae466fc292b146189\transformed\jetified-middleware-3.6.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.facebook.fresco:ui-common:3.6.0] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\1d04b9922ed6bbfee10971a050f7a094\transformed\jetified-ui-common-3.6.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\13502f53e67b1499f208f338f96624f2\transformed\jetified-viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.6.1] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\84b605c22aa1597ed1b2b8827b57b53c\transformed\fragment-1.6.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.fragment:fragment-ktx:1.6.1] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\f4dbc0ca242a1f7619cdd22f491f354a\transformed\jetified-fragment-ktx-1.6.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.8.0] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\091c205281c4d31baa7f05f6ca87c670\transformed\jetified-activity-1.8.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity-ktx:1.8.0] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\7333aa4ca111582d86bf785b019fb660\transformed\jetified-activity-ktx-1.8.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\6c5c0f752811a9940e8f28b41b2b8814\transformed\jetified-savedstate-ktx-1.2.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.autofill:autofill:1.1.0] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\dd250ae8cb821c2f1416910a24cb8b15\transformed\jetified-autofill-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.1.0] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\b78dfdfe53586f134b6c5edd0e557503\transformed\swiperefreshlayout-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.2.0] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\75076590b2d4536dff932c37dd88dcc2\transformed\coordinatorlayout-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\dbd1591925b9404f5bf40409642f9af1\transformed\jetified-emoji2-views-helper-1.3.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\57dedd06bed2077feebb1819383c6d94\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\4b8f1f9ac60c40c5901952289afb4935\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\645998eb04371d7c3b2a55c6ca0947de\transformed\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.facebook.fresco:soloader:3.6.0] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\7a49902560c8c92b003a7c4b4865a04a\transformed\jetified-soloader-3.6.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.facebook.fresco:fbcore:3.6.0] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\fefeb67506113d56acc7e685dbad394d\transformed\jetified-fbcore-3.6.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\a3e8e76d5089f4f0914543c36faea5bb\transformed\drawerlayout-1.1.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.5.0] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\e4b760f00e8b05e2aade5a9c4e81ebe6\transformed\transition-1.5.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\36c95afa4e7eea2ccef53b5093854316\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\a477fb827147501d574216e8082f9294\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\72710ed4219c72d1e555e48af3a34d56\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\b1183f1f4a38664bf2ddf4a43bd48c66\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\56be1c6bcd884549b074e8f21d54423f\transformed\recyclerview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\25e93b6595c63d7f4cf41d9f8d385ca3\transformed\customview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core-ktx:1.13.1] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\3860c4ab15457a2f41a0f37db08b39c7\transformed\jetified-core-ktx-1.13.1\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.core:core:1.13.1] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\2311637937eab1c8bc15f6d858859fdd\transformed\core-1.13.1\AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.2] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\4715650698a10db0b8b6d7a6102e0a62\transformed\jetified-lifecycle-viewmodel-ktx-2.6.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.2] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\79ef1ad5ddf5743dec1688c0dc829734\transformed\lifecycle-viewmodel-2.6.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.6.2] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\6a8b71a016375037c014a3abadfdafe5\transformed\jetified-lifecycle-runtime-ktx-2.6.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\331bdadd18331aa7a4323809d4cf4990\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.6.2] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\bd5e0facbcb88e32db62b1912c2505d9\transformed\jetified-lifecycle-livedata-core-ktx-2.6.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.2] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\24d4f3683ff5129b7912880a6d8d7cf6\transformed\lifecycle-livedata-core-2.6.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.2] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\b27edb7bfbf0f4853d21301e5df2c4a6\transformed\lifecycle-livedata-2.6.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\f27bbc815ab49d794cb3e86d980ec6a5\transformed\lifecycle-runtime-2.6.2\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\7d396e15519bfbaef14815c6a3529c0c\transformed\jetified-lifecycle-viewmodel-savedstate-2.6.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\71d5236e8e8c77efdf8a8b6c27b89538\transformed\jetified-savedstate-1.2.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.facebook.fresco:ui-core:3.6.0] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\eb506a4fdc020cabfde64c1849362d01\transformed\jetified-ui-core-3.6.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\6527ffdd69ec72831ae49c5a2833995c\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:17:1-55:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\4ea786c30741eaf51041e9df88dcfe58\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.1.0] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\5672a449c104b43beb653ed7d5eea8a4\transformed\jetified-tracing-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\5ec1452ee512009442e2487444816a31\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\3fba2d2ba479b5ca2c99394bc9cc1092\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\49ec74ed42284f04617d6fd60ea1e144\transformed\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\0332dc76514b19e8c8090f04fdb181f6\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\91747144446b5a73595aa8d328243e1e\transformed\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\cae422f058424c952865aa9b0ab0a8f4\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\8d5263803d5039410c02c733d5eb6d84\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\b60f0ec55cf18c8a7d95551d5ee4386e\transformed\core-runtime-2.2.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\21a74f62c7c208007c9791d5512a70fb\transformed\jetified-annotation-experimental-1.4.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.facebook.fbjni:fbjni:0.7.0] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\4bbf9aabd327d204392f3a6f8b723314\transformed\jetified-fbjni-0.7.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.facebook.soloader:soloader:0.12.1] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\24fdaee8382b229518c9195605f7c9f8\transformed\jetified-soloader-0.12.1\AndroidManifest.xml:2:1-17:12
+	package
+		INJECTED from C:\Users\TOTAN\Devil\Android\android\app\src\debug\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\TOTAN\Devil\Android\android\app\src\debug\AndroidManifest.xml
+	xmlns:tools
+		ADDED from C:\Users\TOTAN\Devil\Android\android\app\src\debug\AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from C:\Users\TOTAN\Devil\Android\android\app\src\debug\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\TOTAN\Devil\Android\android\app\src\main\AndroidManifest.xml:3:11-69
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\TOTAN\Devil\Android\android\app\src\main\AndroidManifest.xml:5:5-67
+	android:name
+		ADDED from C:\Users\TOTAN\Devil\Android\android\app\src\main\AndroidManifest.xml:5:22-64
+application
+ADDED from C:\Users\TOTAN\Devil\Android\android\app\src\main\AndroidManifest.xml:7:5-27:19
+MERGED from C:\Users\TOTAN\Devil\Android\android\app\src\main\AndroidManifest.xml:7:5-27:19
+MERGED from C:\Users\TOTAN\Devil\Android\android\app\src\main\AndroidManifest.xml:7:5-27:19
+INJECTED from C:\Users\TOTAN\Devil\Android\android\app\src\debug\AndroidManifest.xml:5:5-8:50
+MERGED from [com.facebook.react:react-android:0.80.2] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\d3c494684c907490a03bcf6d2a33f66d\transformed\jetified-react-android-0.80.2-debug\AndroidManifest.xml:18:5-22:19
+MERGED from [com.facebook.react:react-android:0.80.2] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\d3c494684c907490a03bcf6d2a33f66d\transformed\jetified-react-android-0.80.2-debug\AndroidManifest.xml:18:5-22:19
+MERGED from [com.google.android.material:material:1.12.0] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\36bfceb22a93e2ce4fce58979a961866\transformed\material-1.12.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.12.0] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\36bfceb22a93e2ce4fce58979a961866\transformed\material-1.12.0\AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\163499094dce7e2d670160531d3b10c5\transformed\constraintlayout-2.0.1\AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\163499094dce7e2d670160531d3b10c5\transformed\constraintlayout-2.0.1\AndroidManifest.xml:9:5-20
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\57dedd06bed2077feebb1819383c6d94\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\57dedd06bed2077feebb1819383c6d94\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.core:core:1.13.1] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\2311637937eab1c8bc15f6d858859fdd\transformed\core-1.13.1\AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.13.1] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\2311637937eab1c8bc15f6d858859fdd\transformed\core-1.13.1\AndroidManifest.xml:28:5-89
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\331bdadd18331aa7a4323809d4cf4990\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\331bdadd18331aa7a4323809d4cf4990\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\6527ffdd69ec72831ae49c5a2833995c\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\6527ffdd69ec72831ae49c5a2833995c\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\4ea786c30741eaf51041e9df88dcfe58\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\4ea786c30741eaf51041e9df88dcfe58\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\0332dc76514b19e8c8090f04fdb181f6\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\0332dc76514b19e8c8090f04fdb181f6\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [com.facebook.soloader:soloader:0.12.1] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\24fdaee8382b229518c9195605f7c9f8\transformed\jetified-soloader-0.12.1\AndroidManifest.xml:11:5-15:19
+MERGED from [com.facebook.soloader:soloader:0.12.1] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\24fdaee8382b229518c9195605f7c9f8\transformed\jetified-soloader-0.12.1\AndroidManifest.xml:11:5-15:19
+	android:extractNativeLibs
+		INJECTED from C:\Users\TOTAN\Devil\Android\android\app\src\debug\AndroidManifest.xml
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.13.1] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\2311637937eab1c8bc15f6d858859fdd\transformed\core-1.13.1\AndroidManifest.xml:28:18-86
+	android:supportsRtl
+		ADDED from C:\Users\TOTAN\Devil\Android\android\app\src\main\AndroidManifest.xml:14:7-33
+		ADDED from C:\Users\TOTAN\Devil\Android\android\app\src\main\AndroidManifest.xml:14:7-33
+	android:label
+		ADDED from C:\Users\TOTAN\Devil\Android\android\app\src\main\AndroidManifest.xml:9:7-39
+		ADDED from C:\Users\TOTAN\Devil\Android\android\app\src\main\AndroidManifest.xml:9:7-39
+	tools:ignore
+		ADDED from C:\Users\TOTAN\Devil\Android\android\app\src\debug\AndroidManifest.xml:8:9-48
+	android:roundIcon
+		ADDED from C:\Users\TOTAN\Devil\Android\android\app\src\main\AndroidManifest.xml:11:7-52
+		ADDED from C:\Users\TOTAN\Devil\Android\android\app\src\main\AndroidManifest.xml:11:7-52
+	tools:targetApi
+		ADDED from C:\Users\TOTAN\Devil\Android\android\app\src\debug\AndroidManifest.xml:7:9-29
+	android:icon
+		ADDED from C:\Users\TOTAN\Devil\Android\android\app\src\main\AndroidManifest.xml:10:7-41
+		ADDED from C:\Users\TOTAN\Devil\Android\android\app\src\main\AndroidManifest.xml:10:7-41
+	android:allowBackup
+		ADDED from C:\Users\TOTAN\Devil\Android\android\app\src\main\AndroidManifest.xml:12:7-34
+		ADDED from C:\Users\TOTAN\Devil\Android\android\app\src\main\AndroidManifest.xml:12:7-34
+	android:theme
+		ADDED from C:\Users\TOTAN\Devil\Android\android\app\src\main\AndroidManifest.xml:13:7-38
+		ADDED from C:\Users\TOTAN\Devil\Android\android\app\src\main\AndroidManifest.xml:13:7-38
+	android:usesCleartextTraffic
+		ADDED from C:\Users\TOTAN\Devil\Android\android\app\src\debug\AndroidManifest.xml:6:9-44
+	android:name
+		ADDED from C:\Users\TOTAN\Devil\Android\android\app\src\main\AndroidManifest.xml:8:7-38
+		ADDED from C:\Users\TOTAN\Devil\Android\android\app\src\main\AndroidManifest.xml:8:7-38
+activity#com.helloworld.MainActivity
+ADDED from C:\Users\TOTAN\Devil\Android\android\app\src\main\AndroidManifest.xml:15:7-26:18
+	android:label
+		ADDED from C:\Users\TOTAN\Devil\Android\android\app\src\main\AndroidManifest.xml:17:9-41
+	android:launchMode
+		ADDED from C:\Users\TOTAN\Devil\Android\android\app\src\main\AndroidManifest.xml:19:9-40
+	android:windowSoftInputMode
+		ADDED from C:\Users\TOTAN\Devil\Android\android\app\src\main\AndroidManifest.xml:20:9-51
+	android:exported
+		ADDED from C:\Users\TOTAN\Devil\Android\android\app\src\main\AndroidManifest.xml:21:9-32
+	android:configChanges
+		ADDED from C:\Users\TOTAN\Devil\Android\android\app\src\main\AndroidManifest.xml:18:9-118
+	android:name
+		ADDED from C:\Users\TOTAN\Devil\Android\android\app\src\main\AndroidManifest.xml:16:9-37
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\TOTAN\Devil\Android\android\app\src\main\AndroidManifest.xml:22:9-25:25
+action#android.intent.action.MAIN
+ADDED from C:\Users\TOTAN\Devil\Android\android\app\src\main\AndroidManifest.xml:23:13-65
+	android:name
+		ADDED from C:\Users\TOTAN\Devil\Android\android\app\src\main\AndroidManifest.xml:23:21-62
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\TOTAN\Devil\Android\android\app\src\main\AndroidManifest.xml:24:13-73
+	android:name
+		ADDED from C:\Users\TOTAN\Devil\Android\android\app\src\main\AndroidManifest.xml:24:23-70
+uses-sdk
+INJECTED from C:\Users\TOTAN\Devil\Android\android\app\src\debug\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\TOTAN\Devil\Android\android\app\src\debug\AndroidManifest.xml
+INJECTED from C:\Users\TOTAN\Devil\Android\android\app\src\debug\AndroidManifest.xml
+MERGED from [:react-native-safe-area-context] C:\Users\TOTAN\Devil\Android\node_modules\react-native-safe-area-context\android\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:5:5-44
+MERGED from [:react-native-safe-area-context] C:\Users\TOTAN\Devil\Android\node_modules\react-native-safe-area-context\android\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:5:5-44
+MERGED from [:react-native-screens] C:\Users\TOTAN\Devil\Android\node_modules\react-native-screens\android\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:5:5-44
+MERGED from [:react-native-screens] C:\Users\TOTAN\Devil\Android\node_modules\react-native-screens\android\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:5:5-44
+MERGED from [:react-native-get-random-values] C:\Users\TOTAN\Devil\Android\node_modules\react-native-get-random-values\android\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:5:5-44
+MERGED from [:react-native-get-random-values] C:\Users\TOTAN\Devil\Android\node_modules\react-native-get-random-values\android\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:5:5-44
+MERGED from [:react-native-svg] C:\Users\TOTAN\Devil\Android\node_modules\react-native-svg\android\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:5:5-44
+MERGED from [:react-native-svg] C:\Users\TOTAN\Devil\Android\node_modules\react-native-svg\android\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.react:react-android:0.80.2] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\d3c494684c907490a03bcf6d2a33f66d\transformed\jetified-react-android-0.80.2-debug\AndroidManifest.xml:10:5-44
+MERGED from [com.facebook.react:react-android:0.80.2] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\d3c494684c907490a03bcf6d2a33f66d\transformed\jetified-react-android-0.80.2-debug\AndroidManifest.xml:10:5-44
+MERGED from [com.facebook.react:hermes-android:0.80.2] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\f68015581299b41bb798dd3c7856f117\transformed\jetified-hermes-android-0.80.2-debug\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.react:hermes-android:0.80.2] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\f68015581299b41bb798dd3c7856f117\transformed\jetified-hermes-android-0.80.2-debug\AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.7.0] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\132276edc19f356ce9d60391a60f2f66\transformed\jetified-appcompat-resources-1.7.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.7.0] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\132276edc19f356ce9d60391a60f2f66\transformed\jetified-appcompat-resources-1.7.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.material:material:1.12.0] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\36bfceb22a93e2ce4fce58979a961866\transformed\material-1.12.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.12.0] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\36bfceb22a93e2ce4fce58979a961866\transformed\material-1.12.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\163499094dce7e2d670160531d3b10c5\transformed\constraintlayout-2.0.1\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\163499094dce7e2d670160531d3b10c5\transformed\constraintlayout-2.0.1\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat:1.7.0] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\7e2d5b31f5cbb3e3dccf77b475b2cc88\transformed\appcompat-1.7.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat:1.7.0] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\7e2d5b31f5cbb3e3dccf77b475b2cc88\transformed\appcompat-1.7.0\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:fresco:3.6.0] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\85f744f1bfa5c2b1260fc4db34c6bbc5\transformed\jetified-fresco-3.6.0\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:fresco:3.6.0] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\85f744f1bfa5c2b1260fc4db34c6bbc5\transformed\jetified-fresco-3.6.0\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:3.6.0] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\9e32e4d4d9fd6499fe27897a68e329a0\transformed\jetified-imagepipeline-okhttp3-3.6.0\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:3.6.0] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\9e32e4d4d9fd6499fe27897a68e329a0\transformed\jetified-imagepipeline-okhttp3-3.6.0\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:drawee:3.6.0] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\12bfdfe3cf9603f01c8c99336455da6a\transformed\jetified-drawee-3.6.0\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:drawee:3.6.0] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\12bfdfe3cf9603f01c8c99336455da6a\transformed\jetified-drawee-3.6.0\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:nativeimagefilters:3.6.0] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\560d87d0c672c26b1a6c14d7d5f85400\transformed\jetified-nativeimagefilters-3.6.0\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:nativeimagefilters:3.6.0] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\560d87d0c672c26b1a6c14d7d5f85400\transformed\jetified-nativeimagefilters-3.6.0\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:memory-type-native:3.6.0] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\e546ee739b5a36c0277be33b37a4db9b\transformed\jetified-memory-type-native-3.6.0\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:memory-type-native:3.6.0] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\e546ee739b5a36c0277be33b37a4db9b\transformed\jetified-memory-type-native-3.6.0\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:memory-type-java:3.6.0] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\2bdfe717caa61f2431b0ec3194fc9224\transformed\jetified-memory-type-java-3.6.0\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:memory-type-java:3.6.0] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\2bdfe717caa61f2431b0ec3194fc9224\transformed\jetified-memory-type-java-3.6.0\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:imagepipeline-native:3.6.0] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\b8de840d6d544efd049e7e583ac1e4af\transformed\jetified-imagepipeline-native-3.6.0\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:imagepipeline-native:3.6.0] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\b8de840d6d544efd049e7e583ac1e4af\transformed\jetified-imagepipeline-native-3.6.0\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:memory-type-ashmem:3.6.0] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\efbfb8401e21aede301270ee00df57f2\transformed\jetified-memory-type-ashmem-3.6.0\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:memory-type-ashmem:3.6.0] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\efbfb8401e21aede301270ee00df57f2\transformed\jetified-memory-type-ashmem-3.6.0\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:imagepipeline:3.6.0] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\327e6fa4db77bf6876701e0044b92e30\transformed\jetified-imagepipeline-3.6.0\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:imagepipeline:3.6.0] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\327e6fa4db77bf6876701e0044b92e30\transformed\jetified-imagepipeline-3.6.0\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:nativeimagetranscoder:3.6.0] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\e089eceb714f2bccca07087d8713f6d8\transformed\jetified-nativeimagetranscoder-3.6.0\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:nativeimagetranscoder:3.6.0] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\e089eceb714f2bccca07087d8713f6d8\transformed\jetified-nativeimagetranscoder-3.6.0\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:imagepipeline-base:3.6.0] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\00c000482b50f58ac7ad4e3fd9b8b505\transformed\jetified-imagepipeline-base-3.6.0\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:imagepipeline-base:3.6.0] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\00c000482b50f58ac7ad4e3fd9b8b505\transformed\jetified-imagepipeline-base-3.6.0\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:urimod:3.6.0] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\ba28096afba68a7d2373695c556c5561\transformed\jetified-urimod-3.6.0\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:urimod:3.6.0] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\ba28096afba68a7d2373695c556c5561\transformed\jetified-urimod-3.6.0\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:vito-source:3.6.0] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\241708820ef4253afd8fbff1a64d465b\transformed\jetified-vito-source-3.6.0\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:vito-source:3.6.0] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\241708820ef4253afd8fbff1a64d465b\transformed\jetified-vito-source-3.6.0\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:middleware:3.6.0] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\62ea16dea79ccc8ae466fc292b146189\transformed\jetified-middleware-3.6.0\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:middleware:3.6.0] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\62ea16dea79ccc8ae466fc292b146189\transformed\jetified-middleware-3.6.0\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:ui-common:3.6.0] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\1d04b9922ed6bbfee10971a050f7a094\transformed\jetified-ui-common-3.6.0\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:ui-common:3.6.0] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\1d04b9922ed6bbfee10971a050f7a094\transformed\jetified-ui-common-3.6.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\13502f53e67b1499f208f338f96624f2\transformed\jetified-viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\13502f53e67b1499f208f338f96624f2\transformed\jetified-viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.6.1] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\84b605c22aa1597ed1b2b8827b57b53c\transformed\fragment-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.6.1] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\84b605c22aa1597ed1b2b8827b57b53c\transformed\fragment-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment-ktx:1.6.1] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\f4dbc0ca242a1f7619cdd22f491f354a\transformed\jetified-fragment-ktx-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment-ktx:1.6.1] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\f4dbc0ca242a1f7619cdd22f491f354a\transformed\jetified-fragment-ktx-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.8.0] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\091c205281c4d31baa7f05f6ca87c670\transformed\jetified-activity-1.8.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.8.0] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\091c205281c4d31baa7f05f6ca87c670\transformed\jetified-activity-1.8.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity-ktx:1.8.0] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\7333aa4ca111582d86bf785b019fb660\transformed\jetified-activity-ktx-1.8.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-ktx:1.8.0] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\7333aa4ca111582d86bf785b019fb660\transformed\jetified-activity-ktx-1.8.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\6c5c0f752811a9940e8f28b41b2b8814\transformed\jetified-savedstate-ktx-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\6c5c0f752811a9940e8f28b41b2b8814\transformed\jetified-savedstate-ktx-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.autofill:autofill:1.1.0] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\dd250ae8cb821c2f1416910a24cb8b15\transformed\jetified-autofill-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.autofill:autofill:1.1.0] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\dd250ae8cb821c2f1416910a24cb8b15\transformed\jetified-autofill-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.1.0] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\b78dfdfe53586f134b6c5edd0e557503\transformed\swiperefreshlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.1.0] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\b78dfdfe53586f134b6c5edd0e557503\transformed\swiperefreshlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.2.0] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\75076590b2d4536dff932c37dd88dcc2\transformed\coordinatorlayout-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.2.0] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\75076590b2d4536dff932c37dd88dcc2\transformed\coordinatorlayout-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\dbd1591925b9404f5bf40409642f9af1\transformed\jetified-emoji2-views-helper-1.3.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\dbd1591925b9404f5bf40409642f9af1\transformed\jetified-emoji2-views-helper-1.3.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\57dedd06bed2077feebb1819383c6d94\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\57dedd06bed2077feebb1819383c6d94\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\4b8f1f9ac60c40c5901952289afb4935\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\4b8f1f9ac60c40c5901952289afb4935\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\645998eb04371d7c3b2a55c6ca0947de\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\645998eb04371d7c3b2a55c6ca0947de\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.facebook.fresco:soloader:3.6.0] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\7a49902560c8c92b003a7c4b4865a04a\transformed\jetified-soloader-3.6.0\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:soloader:3.6.0] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\7a49902560c8c92b003a7c4b4865a04a\transformed\jetified-soloader-3.6.0\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:fbcore:3.6.0] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\fefeb67506113d56acc7e685dbad394d\transformed\jetified-fbcore-3.6.0\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:fbcore:3.6.0] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\fefeb67506113d56acc7e685dbad394d\transformed\jetified-fbcore-3.6.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\a3e8e76d5089f4f0914543c36faea5bb\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\a3e8e76d5089f4f0914543c36faea5bb\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.5.0] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\e4b760f00e8b05e2aade5a9c4e81ebe6\transformed\transition-1.5.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.transition:transition:1.5.0] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\e4b760f00e8b05e2aade5a9c4e81ebe6\transformed\transition-1.5.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\36c95afa4e7eea2ccef53b5093854316\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\36c95afa4e7eea2ccef53b5093854316\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\a477fb827147501d574216e8082f9294\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\a477fb827147501d574216e8082f9294\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\72710ed4219c72d1e555e48af3a34d56\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\72710ed4219c72d1e555e48af3a34d56\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\b1183f1f4a38664bf2ddf4a43bd48c66\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\b1183f1f4a38664bf2ddf4a43bd48c66\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\56be1c6bcd884549b074e8f21d54423f\transformed\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\56be1c6bcd884549b074e8f21d54423f\transformed\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\25e93b6595c63d7f4cf41d9f8d385ca3\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\25e93b6595c63d7f4cf41d9f8d385ca3\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core-ktx:1.13.1] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\3860c4ab15457a2f41a0f37db08b39c7\transformed\jetified-core-ktx-1.13.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.13.1] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\3860c4ab15457a2f41a0f37db08b39c7\transformed\jetified-core-ktx-1.13.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core:1.13.1] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\2311637937eab1c8bc15f6d858859fdd\transformed\core-1.13.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.13.1] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\2311637937eab1c8bc15f6d858859fdd\transformed\core-1.13.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.2] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\4715650698a10db0b8b6d7a6102e0a62\transformed\jetified-lifecycle-viewmodel-ktx-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.2] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\4715650698a10db0b8b6d7a6102e0a62\transformed\jetified-lifecycle-viewmodel-ktx-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.2] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\79ef1ad5ddf5743dec1688c0dc829734\transformed\lifecycle-viewmodel-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.2] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\79ef1ad5ddf5743dec1688c0dc829734\transformed\lifecycle-viewmodel-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.6.2] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\6a8b71a016375037c014a3abadfdafe5\transformed\jetified-lifecycle-runtime-ktx-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.6.2] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\6a8b71a016375037c014a3abadfdafe5\transformed\jetified-lifecycle-runtime-ktx-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\331bdadd18331aa7a4323809d4cf4990\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\331bdadd18331aa7a4323809d4cf4990\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.6.2] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\bd5e0facbcb88e32db62b1912c2505d9\transformed\jetified-lifecycle-livedata-core-ktx-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.6.2] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\bd5e0facbcb88e32db62b1912c2505d9\transformed\jetified-lifecycle-livedata-core-ktx-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.2] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\24d4f3683ff5129b7912880a6d8d7cf6\transformed\lifecycle-livedata-core-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.2] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\24d4f3683ff5129b7912880a6d8d7cf6\transformed\lifecycle-livedata-core-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.2] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\b27edb7bfbf0f4853d21301e5df2c4a6\transformed\lifecycle-livedata-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.2] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\b27edb7bfbf0f4853d21301e5df2c4a6\transformed\lifecycle-livedata-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\f27bbc815ab49d794cb3e86d980ec6a5\transformed\lifecycle-runtime-2.6.2\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\f27bbc815ab49d794cb3e86d980ec6a5\transformed\lifecycle-runtime-2.6.2\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\7d396e15519bfbaef14815c6a3529c0c\transformed\jetified-lifecycle-viewmodel-savedstate-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\7d396e15519bfbaef14815c6a3529c0c\transformed\jetified-lifecycle-viewmodel-savedstate-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\71d5236e8e8c77efdf8a8b6c27b89538\transformed\jetified-savedstate-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\71d5236e8e8c77efdf8a8b6c27b89538\transformed\jetified-savedstate-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [com.facebook.fresco:ui-core:3.6.0] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\eb506a4fdc020cabfde64c1849362d01\transformed\jetified-ui-core-3.6.0\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:ui-core:3.6.0] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\eb506a4fdc020cabfde64c1849362d01\transformed\jetified-ui-core-3.6.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\6527ffdd69ec72831ae49c5a2833995c\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:21:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\6527ffdd69ec72831ae49c5a2833995c\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:21:5-44
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\4ea786c30741eaf51041e9df88dcfe58\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\4ea786c30741eaf51041e9df88dcfe58\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.1.0] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\5672a449c104b43beb653ed7d5eea8a4\transformed\jetified-tracing-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.1.0] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\5672a449c104b43beb653ed7d5eea8a4\transformed\jetified-tracing-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\5ec1452ee512009442e2487444816a31\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\5ec1452ee512009442e2487444816a31\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\3fba2d2ba479b5ca2c99394bc9cc1092\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\3fba2d2ba479b5ca2c99394bc9cc1092\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\49ec74ed42284f04617d6fd60ea1e144\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\49ec74ed42284f04617d6fd60ea1e144\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\0332dc76514b19e8c8090f04fdb181f6\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\0332dc76514b19e8c8090f04fdb181f6\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\91747144446b5a73595aa8d328243e1e\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\91747144446b5a73595aa8d328243e1e\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\cae422f058424c952865aa9b0ab0a8f4\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\cae422f058424c952865aa9b0ab0a8f4\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\8d5263803d5039410c02c733d5eb6d84\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\8d5263803d5039410c02c733d5eb6d84\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\b60f0ec55cf18c8a7d95551d5ee4386e\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\b60f0ec55cf18c8a7d95551d5ee4386e\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\21a74f62c7c208007c9791d5512a70fb\transformed\jetified-annotation-experimental-1.4.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\21a74f62c7c208007c9791d5512a70fb\transformed\jetified-annotation-experimental-1.4.0\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fbjni:fbjni:0.7.0] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\4bbf9aabd327d204392f3a6f8b723314\transformed\jetified-fbjni-0.7.0\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fbjni:fbjni:0.7.0] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\4bbf9aabd327d204392f3a6f8b723314\transformed\jetified-fbjni-0.7.0\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.soloader:soloader:0.12.1] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\24fdaee8382b229518c9195605f7c9f8\transformed\jetified-soloader-0.12.1\AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.soloader:soloader:0.12.1] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\24fdaee8382b229518c9195605f7c9f8\transformed\jetified-soloader-0.12.1\AndroidManifest.xml:7:5-9:41
+	android:targetSdkVersion
+		INJECTED from C:\Users\TOTAN\Devil\Android\android\app\src\debug\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\TOTAN\Devil\Android\android\app\src\debug\AndroidManifest.xml
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from [com.facebook.react:react-android:0.80.2] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\d3c494684c907490a03bcf6d2a33f66d\transformed\jetified-react-android-0.80.2-debug\AndroidManifest.xml:16:5-78
+	android:name
+		ADDED from [com.facebook.react:react-android:0.80.2] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\d3c494684c907490a03bcf6d2a33f66d\transformed\jetified-react-android-0.80.2-debug\AndroidManifest.xml:16:22-75
+activity#com.facebook.react.devsupport.DevSettingsActivity
+ADDED from [com.facebook.react:react-android:0.80.2] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\d3c494684c907490a03bcf6d2a33f66d\transformed\jetified-react-android-0.80.2-debug\AndroidManifest.xml:19:9-21:40
+	android:exported
+		ADDED from [com.facebook.react:react-android:0.80.2] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\d3c494684c907490a03bcf6d2a33f66d\transformed\jetified-react-android-0.80.2-debug\AndroidManifest.xml:21:13-37
+	android:name
+		ADDED from [com.facebook.react:react-android:0.80.2] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\d3c494684c907490a03bcf6d2a33f66d\transformed\jetified-react-android-0.80.2-debug\AndroidManifest.xml:20:13-77
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\57dedd06bed2077feebb1819383c6d94\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\331bdadd18331aa7a4323809d4cf4990\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\331bdadd18331aa7a4323809d4cf4990\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\6527ffdd69ec72831ae49c5a2833995c\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\6527ffdd69ec72831ae49c5a2833995c\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\4ea786c30741eaf51041e9df88dcfe58\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\4ea786c30741eaf51041e9df88dcfe58\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\57dedd06bed2077feebb1819383c6d94\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:28:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\57dedd06bed2077feebb1819383c6d94\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:26:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\57dedd06bed2077feebb1819383c6d94\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\57dedd06bed2077feebb1819383c6d94\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:25:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\57dedd06bed2077feebb1819383c6d94\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\57dedd06bed2077feebb1819383c6d94\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\57dedd06bed2077feebb1819383c6d94\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:30:17-75
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\2311637937eab1c8bc15f6d858859fdd\transformed\core-1.13.1\AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.13.1] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\2311637937eab1c8bc15f6d858859fdd\transformed\core-1.13.1\AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.13.1] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\2311637937eab1c8bc15f6d858859fdd\transformed\core-1.13.1\AndroidManifest.xml:23:9-81
+permission#com.helloworld.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\2311637937eab1c8bc15f6d858859fdd\transformed\core-1.13.1\AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.13.1] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\2311637937eab1c8bc15f6d858859fdd\transformed\core-1.13.1\AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.13.1] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\2311637937eab1c8bc15f6d858859fdd\transformed\core-1.13.1\AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\2311637937eab1c8bc15f6d858859fdd\transformed\core-1.13.1\AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.13.1] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\2311637937eab1c8bc15f6d858859fdd\transformed\core-1.13.1\AndroidManifest.xml:26:22-94
+uses-permission#com.helloworld.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\2311637937eab1c8bc15f6d858859fdd\transformed\core-1.13.1\AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.13.1] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\2311637937eab1c8bc15f6d858859fdd\transformed\core-1.13.1\AndroidManifest.xml:26:22-94
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\331bdadd18331aa7a4323809d4cf4990\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\331bdadd18331aa7a4323809d4cf4990\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\331bdadd18331aa7a4323809d4cf4990\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:30:17-78
+meta-data#androidx.profileinstaller.ProfileInstallerInitializer
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\6527ffdd69ec72831ae49c5a2833995c\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\6527ffdd69ec72831ae49c5a2833995c\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\6527ffdd69ec72831ae49c5a2833995c\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:30:17-85
+receiver#androidx.profileinstaller.ProfileInstallReceiver
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\6527ffdd69ec72831ae49c5a2833995c\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:34:9-52:20
+	android:enabled
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\6527ffdd69ec72831ae49c5a2833995c\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\6527ffdd69ec72831ae49c5a2833995c\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:38:13-36
+	android:permission
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\6527ffdd69ec72831ae49c5a2833995c\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:39:13-57
+	android:directBootAware
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\6527ffdd69ec72831ae49c5a2833995c\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:36:13-44
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\6527ffdd69ec72831ae49c5a2833995c\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:35:13-76
+intent-filter#action:name:androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\6527ffdd69ec72831ae49c5a2833995c\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:40:13-42:29
+action#androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\6527ffdd69ec72831ae49c5a2833995c\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:41:17-91
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\6527ffdd69ec72831ae49c5a2833995c\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:41:25-88
+intent-filter#action:name:androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\6527ffdd69ec72831ae49c5a2833995c\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:43:13-45:29
+action#androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\6527ffdd69ec72831ae49c5a2833995c\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:44:17-85
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\6527ffdd69ec72831ae49c5a2833995c\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:44:25-82
+intent-filter#action:name:androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\6527ffdd69ec72831ae49c5a2833995c\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:46:13-48:29
+action#androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\6527ffdd69ec72831ae49c5a2833995c\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:47:17-88
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\6527ffdd69ec72831ae49c5a2833995c\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:47:25-85
+intent-filter#action:name:androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\6527ffdd69ec72831ae49c5a2833995c\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:49:13-51:29
+action#androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\6527ffdd69ec72831ae49c5a2833995c\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:50:17-95
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\6527ffdd69ec72831ae49c5a2833995c\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:50:25-92
+meta-data#com.facebook.soloader.enabled
+ADDED from [com.facebook.soloader:soloader:0.12.1] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\24fdaee8382b229518c9195605f7c9f8\transformed\jetified-soloader-0.12.1\AndroidManifest.xml:12:9-14:37
+	android:value
+		ADDED from [com.facebook.soloader:soloader:0.12.1] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\24fdaee8382b229518c9195605f7c9f8\transformed\jetified-soloader-0.12.1\AndroidManifest.xml:14:13-34
+	android:name
+		ADDED from [com.facebook.soloader:soloader:0.12.1] C:\Users\TOTAN\.gradle\caches\8.11.1\transforms\24fdaee8382b229518c9195605f7c9f8\transformed\jetified-soloader-0.12.1\AndroidManifest.xml:13:13-57
