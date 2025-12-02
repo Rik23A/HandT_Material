@@ -1,0 +1,71 @@
+name: Android Build
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Source
+        uses: actions/checkout@v4
+
+      # Setup Java (Android requires JDK 17 for newer AGP versions)
+      - name: Setup JDK 17
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: 17
+          cache: gradle
+
+      # Install full Android SDK + build tools safely
+      - name: Install Android SDK
+        uses: android-actions/setup-android@v3
+
+      # Accept all SDK licenses to avoid random failures
+      - name: Accept Licenses
+        run: yes | sdkmanager --licenses
+
+      # Install your required build-tools & platforms (safe for all)
+      - name: Install Required SDK Packages
+        run: |
+          sdkmanager "platform-tools" \
+            "platforms;android-34" \
+            "build-tools;34.0.0" \
+            "extras;android;m2repository" \
+            "extras;google;m2repository"
+
+      # Optional: NDK installation (only if your project needs it)
+      # - name: Install NDK
+      #   run: sdkmanager "ndk;26.1.10909125"
+
+      # Ensure gradlew is executable (common cause of failures)
+      - name: Set Gradle Permissions
+        run: chmod +x ./gradlew
+
+      # Build APK
+      - name: Build Debug APK
+        run: ./gradlew clean assembleDebug --stacktrace
+
+      # Extract Android Version (works for Groovy + Kotlin DSL)
+      - name: Get Version Info
+        id: version
+        run: |
+          FILE=$(find app -name "build.gradle*" | head -n 1)
+          echo "Using gradle file: $FILE"
+          VERSION_NAME=$(grep "versionName" -R $FILE | head -1 | sed 's/.*"\(.*\)".*/\1/')
+          VERSION_CODE=$(grep "versionCode" -R $FILE | head -1 | sed 's/[^0-9]*//g')
+          echo "VERSION_NAME=$VERSION_NAME" >> $GITHUB_ENV
+          echo "VERSION_CODE=$VERSION_CODE" >> $GITHUB_ENV
+          echo "VERSION NAME: $VERSION_NAME"
+          echo "VERSION CODE: $VERSION_CODE"
+
+      # Upload APK as artifact
+      - name: Upload APK
+        uses: actions/upload-artifact@v4
+        with:
+          name: android-app-${{ env.VERSION_NAME }}-${{ env.VERSION_CODE }}
+          path: app/build/outputs/apk/debug/*.apk
