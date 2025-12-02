@@ -1,63 +1,65 @@
-name: Android Build
+name: Android Release Build
 
+# This workflow triggers on a push to the 'main' branch or when a new tag is pushed (for releases).
 on:
   push:
-    branches: [ "main" ]
-  pull_request:
+    branches:
+      - main
+  workflow_dispatch: # Allows manual trigger from the GitHub Actions tab
 
 jobs:
   build:
+    # Use a standard Linux runner for the build process
     runs-on: ubuntu-latest
+    
+    # Define environment variables for the build process
+    env:
+      # Use an appropriate Java version for modern Android development
+      JAVA_VERSION: '17'
+      # The main Gradle build command to generate the release APK
+      GRADLE_COMMAND: assembleRelease
 
     steps:
-      - name: Checkout Source
-        uses: actions/checkout@v4
+    - name: Checkout Repository
+      # Checks out the repository code
+      uses: actions/checkout@v4
+      
+    - name: Set up JDK ${{ env.JAVA_VERSION }}
+      # Sets up the Java Development Kit environment
+      uses: actions/setup-java@v4
+      with:
+        java-version: ${{ env.JAVA_VERSION }}
+        distribution: 'temurin'
+        cache: gradle # Caches Gradle dependencies for faster builds
 
-      # Setup Java 17 for Android Gradle Plugin 8+
-      - name: Setup JDK 17
-        uses: actions/setup-java@v4
-        with:
-          distribution: temurin
-          java-version: 17
-          cache: gradle
+    - name: Grant Execute Permission to gradlew
+      # Ensures the Gradle wrapper script is executable
+      run: chmod +x gradlew
 
-      # Install Android SDK
-      - name: Install Android SDK
-        uses: android-actions/setup-android@v3
+    - name: Run Unit Tests (Optional but Recommended)
+      # Run any existing unit tests before building the APK
+      run: ./gradlew testReleaseUnitTest
 
-      # Accept licenses
-      - name: Accept Licenses
-        run: yes | sdkmanager --licenses
+    - name: Build Release APK
+      # Executes the Gradle command to build the release APK
+      run: ./gradlew ${{ env.GRADLE_COMMAND }}
 
-      # Install required build tools and platform
-      - name: Install Required SDK Packages
-        run: |
-          sdkmanager "platform-tools" \
-            "platforms;android-34" \
-            "build-tools;34.0.0" \
-            "extras;android;m2repository" \
-            "extras;google;m2repository"
+    - name: Determine APK path
+      # Finds the path to the generated APK file, accommodating different naming conventions.
+      id: find_apk
+      run: |
+        APK_PATH=$(find app/build/outputs/apk/release/ -name "app-release.apk" -o -name "*-release.apk" | head -n 1)
+        if [ -z "$APK_PATH" ]; then
+          echo "Error: Could not find release APK file."
+          exit 1
+        fi
+        echo "apk_path=$APK_PATH" >> $GITHUB_OUTPUT
 
-      # Fix gradlew execute permission
-      - name: Set Gradle Permissions
-        run: chmod +x ./gradlew
-
-      # Build APK
-      - name: Build Debug APK
-        run: ./gradlew clean assembleDebug --stacktrace
-
-      # Extract version info
-      - name: Get Version Info
-        id: version
-        run: |
-          VERSION_NAME=$(grep versionName -R app/build.gradle | head -1 | sed 's/.*"\(.*\)".*/\1/')
-          VERSION_CODE=$(grep versionCode -R app/build.gradle | head -1 | sed 's/[^0-9]*//g')
-          echo "VERSION_NAME=$VERSION_NAME" >> $GITHUB_ENV
-          echo "VERSION_CODE=$VERSION_CODE" >> $GITHUB_ENV
-
-      # Upload APK
-      - name: Upload APK
-        uses: actions/upload-artifact@v4
-        with:
-          name: android-app-${{ env.VERSION_NAME }}-${{ env.VERSION_CODE }}
-          path: app/build/outputs/apk/debug/*.apk
+    - name: Upload Release APK as Artifact
+      # Uploads the built APK file so it can be downloaded from the workflow run summary
+      uses: actions/upload-artifact@v4
+      with:
+        name: release-apk
+        path: ${{ steps.find_apk.outputs.apk_path }}
+        # The APK path is typically: app/build/outputs/apk/release/app-release.apk
+        # Note: If you have different flavor or module names, adjust the path above.
