@@ -13,7 +13,7 @@ jobs:
       - name: Checkout Source
         uses: actions/checkout@v4
 
-      # Setup Java (Android requires JDK 17 for newer AGP versions)
+      # Setup Java 17 for Android Gradle Plugin 8+
       - name: Setup JDK 17
         uses: actions/setup-java@v4
         with:
@@ -21,15 +21,15 @@ jobs:
           java-version: 17
           cache: gradle
 
-      # Install full Android SDK + build tools safely
+      # Install Android SDK
       - name: Install Android SDK
         uses: android-actions/setup-android@v3
 
-      # Accept all SDK licenses to avoid random failures
+      # Accept licenses
       - name: Accept Licenses
         run: yes | sdkmanager --licenses
 
-      # Install your required build-tools & platforms (safe for all)
+      # Install required build tools and platform
       - name: Install Required SDK Packages
         run: |
           sdkmanager "platform-tools" \
@@ -38,11 +38,7 @@ jobs:
             "extras;android;m2repository" \
             "extras;google;m2repository"
 
-      # Optional: NDK installation (only if your project needs it)
-      # - name: Install NDK
-      #   run: sdkmanager "ndk;26.1.10909125"
-
-      # Ensure gradlew is executable (common cause of failures)
+      # Fix gradlew execute permission
       - name: Set Gradle Permissions
         run: chmod +x ./gradlew
 
@@ -50,20 +46,16 @@ jobs:
       - name: Build Debug APK
         run: ./gradlew clean assembleDebug --stacktrace
 
-      # Extract Android Version (works for Groovy + Kotlin DSL)
+      # Extract version info
       - name: Get Version Info
         id: version
         run: |
-          FILE=$(find app -name "build.gradle*" | head -n 1)
-          echo "Using gradle file: $FILE"
-          VERSION_NAME=$(grep "versionName" -R $FILE | head -1 | sed 's/.*"\(.*\)".*/\1/')
-          VERSION_CODE=$(grep "versionCode" -R $FILE | head -1 | sed 's/[^0-9]*//g')
+          VERSION_NAME=$(grep versionName -R app/build.gradle | head -1 | sed 's/.*"\(.*\)".*/\1/')
+          VERSION_CODE=$(grep versionCode -R app/build.gradle | head -1 | sed 's/[^0-9]*//g')
           echo "VERSION_NAME=$VERSION_NAME" >> $GITHUB_ENV
           echo "VERSION_CODE=$VERSION_CODE" >> $GITHUB_ENV
-          echo "VERSION NAME: $VERSION_NAME"
-          echo "VERSION CODE: $VERSION_CODE"
 
-      # Upload APK as artifact
+      # Upload APK
       - name: Upload APK
         uses: actions/upload-artifact@v4
         with:
